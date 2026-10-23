@@ -1,0 +1,6 @@
+# Deny by default: excludes environment files (including examples), credentials,
+# Git metadata, virtual environments, caches, logs, tests and generated output.
+# Add only reviewed runtime files here when the application grows.
+**
+!requirements.txt
+!server.py
